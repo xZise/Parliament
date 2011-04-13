@@ -1,0 +1,13 @@
+name: Parliament
+main: de.xzise.parliament.Parliament
+#description: 
+version: 0.0.1
+authors:
+    - 'xZise'
+commands:    
+    poll:
+        description: Startes a new poll.
+        usage: /<command> <question>
+    vote:
+        description: Votes for a poll.
+        usage: /<command> <voteid> <vote>
