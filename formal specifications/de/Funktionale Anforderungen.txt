@@ -1,0 +1,66 @@
+Ein Parlament hat mehrere Mitglieder und einen Vorsitzenden der von den Mitgliedern gewählt wird.
+
+
+1. Alias:
+
+/parliament = /p
+
+2. Beitreten in ein Parlament:
+
+/p join
+
+2.5. Wählen eines Vorsitzenden:
+
+/p vote pres [player]
+
+Kann außerhalb einer Sitzung geschehen. Ein Vorsitzender hat allerdings nur organisatorische Rechte.
+
+
+3. Festlegen von Parlamentsterminen über Abstimmung
+
+/p vote date dd:mm:yyyy hh:mm-hh:mm
+
+Benötigt eine absolute Mehrheit des Parlaments und wird durch den Parlamentspräsidenten gestartet. 
+Muss nicht während eines Termins sein.
+
+4. Einreichen eines Antrags
+
+/p vote law [Antrag]
+
+5. Starten einer Parlamentssitzung durch den Vorsitzenden
+
+/p begin
+
+Benötigt einen Parlamentstermin
+
+6. Anmelden eines Redeanspruches
+
+/p debate
+
+7. Melden einer zwischenfrage
+
+/p question
+
+8. Erlauben einer Zwischenfrage oder verneinen
+
+/p question [allow/decline]
+
+Je nach dem ob sie erlaubt wurde oder nicht bekommt der Fräger nach der Rede eine Gelegenheit
+
+9. Beenden der Rede
+
+/p debate stop
+
+10. Abstimmen nach einer Debatte
+
+/p vote [accept/decline/abstention]
+
+
+Ein Parlament endet durch die Abarbeitung aller Anträge oder durch die Vertagung des Vorsitzenden.
+
+
+11. Vertagung der Sitzung
+
+/p end [debate/vote]
+
+Stoppt die Sitzung entweder nach dem letzten Redebeitrag oder nach der Abstimmung über das Gesetz.
